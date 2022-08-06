@@ -109,3 +109,73 @@ body{
     width: 18rem;
     text-align: left;
 }
+@media screen and (max-width: 700px) {
+    body{
+        background-image: url(./images/bg-pattern-top-mobile.svg),url(./images/bg-pattern-bottom-mobile.svg);
+
+    }
+    .body{
+        width: 100%;
+        margin-left: 0;
+    }
+    .top_section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .heading_text{
+        width: 100vw;
+        
+    }
+    .main_heading{
+        width: 100vw;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .sub_heading{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 90vw;
+    }
+    .ratings{
+        width: 95vw;
+    }
+    .rating_1{
+
+    }
+    .rating_2{
+        margin-left: 0;
+    }
+    .rating_3{
+        margin-left: 0;
+    }
+    .rating_1_content,.rating_2_content,.rating_3_content{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+    .rating_text{
+
+    }
+    .bottom_section{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .first_bottom_box,.second_bottom_box,.third_bottom_box{
+        margin-left: 0;
+        width: 75vw;
+        padding: 30px;
+    }
+    .box_heading{
+
+    }
+    .buyer_profile{
+
+    }
+}
